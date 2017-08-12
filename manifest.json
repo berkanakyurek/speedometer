@@ -1,0 +1,35 @@
+{
+  "name": "Speedometer",
+  "description": "This extension detect your internet speed and current web site quality.",
+  "manifest_version": 2,
+  "version": "0.1",
+  "background": {
+    "scripts": ["assets/js/background.js"]
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "assets/js/timer.js"
+      ],
+      "matches": [
+        "*://*/*"
+      ]
+    }
+  ],
+  "browser_action": {
+    "default_icon": "assets/img/icon-16.png",
+    "default_title": "Click Here!",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "http://*/*",
+    "tabs",
+    "storage",
+    "webNavigation"
+  ],
+  "icons": {
+    "16": "assets/img/icon-16.png",
+    "48": "assets/img/icon-48.png",
+    "128": "assets/img/icon-128.png"
+  }
+}

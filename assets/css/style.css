@@ -1,0 +1,111 @@
+@import "normalize.css";
+@import "skeleton.css";
+
+html
+{
+    background-color: #222222;
+}
+body
+{
+    background-color: white;
+}
+
+
+body
+{
+    width: 400px;
+    margin:auto;
+    font-size:13px;
+}
+
+.hidden
+{
+    display: none !important;
+}
+.label {
+    color: #fff;
+    display: inline-block;
+    padding: 3px 10px;
+}
+
+#header
+{
+    height: 80px;
+    background: #e74c3c;
+    clear: both;
+}
+#header #logo, #header #settingBtn
+{
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    display: inline-block;
+    outline: none;
+    text-indent: -9999px;
+}
+#header #logo
+{
+    background-image: url('../img/logo.png');
+    width: 215px;
+    height: 48px;
+    margin: 16px 0 0 20px;
+    float:left;
+}
+#header #settingBtn
+{
+    background-image: url('../img/setting.png');
+    width: 15px;
+    height: 15px;
+    float:right;
+    margin: 31px 20px 0 0;
+}
+#header #settingBtn:hover
+{
+    opacity: 0.6;
+    transition: all 1s ease-out;
+}
+
+#container
+{
+    padding: 15px 0 10px 0;
+}
+#monitor
+{
+
+}
+#monitor table
+{
+    width: 100%;
+}
+#monitor table tr
+{
+
+}
+#monitor table tr th, #monitor table tr td
+{
+    width: 50%;
+
+}
+#monitor table tr th
+{
+
+}
+#monitor table tr td
+{
+
+}
+
+#footer
+{
+    text-align: right;
+    padding:10px 0;
+}
+#footer a
+{
+    text-decoration: none;
+    font-size: 11px;
+    color:#e74c3c;
+}
+#footer a:hover
+{
+    text-decoration: underline;
+}

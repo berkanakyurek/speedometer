@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>Speedometer</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="assets/css/style.css?v=0.1">
+
+
+  </head>
+  <body>
+
+  <header id="header">
+      <a href="https://github.com/berkan52" target="_blank" id="logo">
+          Speedometer
+      </a>
+
+      <a href="#" id="settingBtn" class="hidden">
+          Options
+      </a>
+  </header>
+
+
+  <article id="container" class="container">
+
+      <section id="monitor" class="">
+          <!--<h5>Monitor</h5>-->
+
+          <!--<p id="monitorSiteTitle"></p>-->
+
+          <table id="monitorTable">
+              <tr>
+                  <th>Website Speed</th>
+                  <td id="monitorTableWebsiteSpeed">-</td>
+              </tr>
+              <tr>
+                  <th>Website Speed Quality</th>
+                  <td id="monitorTableWebsiteSpeedQuality">-</td>
+              </tr>
+          </table>
+      </section>
+
+      <section id="setting" class="hidden">
+          <h5>Setting</h5>
+
+          <table class="u-full-width">
+              <tbody>
+              <th>
+                  Show info on icon
+              </th>
+              <td>
+                  <input type="checkbox" id="showInfoOnIconCb" />
+              </td>
+              </tbody>
+          </table>
+
+          <p id="settingMessage" class="hidden">
+              Settings saved successfully.
+          </p>
+
+          <button class="button" id="saveSettingBtn">Save</button>
+          <button class="button-primary" id="turnMonitorBtn">Back Monitor</button>
+      </section>
+
+  </article>
+
+  <footer id="footer">
+      <div class="container">
+          <a href="https://github.com/berkan52/speedometer" target="_blank">v0.1 - Berkan Akyürek</a>
+      </div>
+  </footer>
+
+  <script type="text/javascript" src="assets/js/popup.js?v=0.1"></script>
+
+  </body>
+  </html>
